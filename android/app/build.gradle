@@ -33,6 +33,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
+    //noinspection GradleDependency
     compileSdkVersion 33
 
     sourceSets {
@@ -48,8 +49,8 @@ android {
         applicationId "com.mastermovers.seller"
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        versionCode 14
+        versionName '14'
         multiDexEnabled true
     }
 
