@@ -5,7 +5,7 @@ class AppConstants {
   static const String appName = 'MasterMovers Merchant';
   static const double appVersion = 2.3;
 
-  static const String baseUrl = 'https://admin.mastermovers.ph;
+  static const String baseUrl = 'https://admin.mastermovers.ph';
   static const String configUri = '/api/v1/config';
   static const String loginUri = '/api/v1/auth/vendor/login';
   static const String forgetPasswordUri = '/api/v1/auth/vendor/forgot-password';
